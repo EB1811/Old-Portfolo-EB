@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta
+            name="viewport"
+            charset="UTF-8"
+            content="width=device-width, initial-scale=1"
+        />
+        <title>Title</title>
+
+        <!--Google Fonts-->
+        <link
+            href="https://fonts.googleapis.com/css?family=Tangerine&display=swap"
+            rel="stylesheet"
+        />
+
+        <!--Scroll Effects Plugin-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <link rel="stylesheet" href="cssDoc.css" />
+    </head>
+
+    <body>
+        <!-- PROGRESS BAR -->
+        <div class="progressBarContainer">
+            <div class="progressBar" id="bar"></div>
+        </div>
+
+        <div id="first">
+            <div id="name">Emmanuils Borovikovs</div>
+            <div id="infoAboutMe">
+                <div id="role">Web Development Is My Passion</div>
+            </div>
+            <div id="showcaseButton">
+                <h4
+                    style="
+                        font-family: arial;
+                        color: #fff;
+                        font-weight: 200;
+                        font-size: 12.5px;
+                    "
+                >
+                    Scroll to view projects <br />
+                    ↓
+                </h4>
+            </div>
+            <!--
+		<div id="showcaseButton">
+			<a href="#project1" class="showcaseText">
+				Projects
+			</a>
+			<a href="https://github.com/EB1811" target="_blank" class="showcaseText">
+				Github
+			</a>
+		</div>
+		-->
+        </div>
+
+        <div id="skillsPanel">
+            <div class="center">
+                <div id="skillsIntro">
+                    <div id="introText">Featured Technologies</div>
+                </div>
+                <div id="skillsList">
+                    <div id="skillsPill">
+                        <h2
+                            id="skillText"
+                            style="
+                                background-color: #f06529;
+                                color: #fff;
+                                border: 5px solid #f06529;
+                            "
+                        >
+                            HTML5
+                        </h2>
+                    </div>
+                    <div id="skillsPill">
+                        <h2
+                            id="skillText"
+                            style="
+                                background-color: dodgerblue;
+                                color: #fff;
+                                border: 5px solid dodgerblue;
+                            "
+                        >
+                            CSS3
+                        </h2>
+                    </div>
+                    <div id="skillsPill">
+                        <h2
+                            id="skillText"
+                            style="
+                                background-color: #efd63b;
+                                color: #000;
+                                border: 5px solid #efd63b;
+                            "
+                        >
+                            JavaScript
+                        </h2>
+                    </div>
+                    <div id="skillsPill">
+                        <h2
+                            id="skillText"
+                            style="
+                                background-color: #3178c6;
+                                color: #fff;
+                                border: 5px solid #3178c6;
+                            "
+                        >
+                            TypeScript
+                        </h2>
+                    </div>
+                    <div id="skillsPill">
+                        <h2
+                            id="skillText"
+                            style="
+                                background-color: #61dafb;
+                                color: #000;
+                                border: 5px solid #61dafb;
+                            "
+                        >
+                            React.js
+                        </h2>
+                    </div>
+                    <div id="skillsPill">
+                        <h2
+                            id="skillText"
+                            style="
+                                background-color: #4fc08d;
+                                color: #fff;
+                                border: 5px solid #4fc08d;
+                            "
+                        >
+                            Vue.js
+                        </h2>
+                    </div>
+                    <!--
+				<div id="skillsPill">
+					<h2 id="skillText" style="background-color: #7952b3; color: #fff; border: 5px solid #7952b3">Bootstrap</h2>
+				</div>
+				-->
+                    <div id="skillsPill">
+                        <h2
+                            id="skillText"
+                            style="
+                                background-color: #bf4080;
+                                color: #fff;
+                                border: 5px solid #bf4080;
+                            "
+                        >
+                            Sass
+                        </h2>
+                    </div>
+                    <div id="skillsPill">
+                        <h2
+                            id="skillText"
+                            style="
+                                background-color: #8dd6f9;
+                                color: #000;
+                                border: 5px solid #8dd6f9;
+                            "
+                        >
+                            Webpack
+                        </h2>
+                    </div>
+                    <div id="skillsPill">
+                        <h2
+                            id="skillText"
+                            style="
+                                background-color: #8892bf;
+                                color: #000;
+                                border: 5px solid #8892bf;
+                            "
+                        >
+                            PHP
+                        </h2>
+                    </div>
+                    <div id="skillsPill">
+                        <h2
+                            id="skillText"
+                            style="
+                                background-color: #512bd4;
+                                color: #fff;
+                                border: 5px solid #512bd4;
+                            "
+                        >
+                            ASP.NET Core
+                        </h2>
+                    </div>
+                    <!--
+				<div id="skillsPill">
+					<h2 id="skillText" style="background-color: #ff2d20; color: #fff; border: 5px solid #ff2d20">Laravel</h2>
+				</div>
+				-->
+                    <!--
+				<div id="skillsPill">
+					<h2 id="skillText" style="background-color: #fda535; color: #000; border: 5px solid #fda535">Firebase</h2>
+				</div>
+				-->
+                </div>
+            </div>
+        </div>
+
+        <div id="projectsTitleSlide">
+            <div class="center">
+                <div id="skillsIntro">
+                    <div class="titleLarge">Projects</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project50" id="project1">
+            <div
+                class="projectLeft"
+                data-aos="fade"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >
+                <h1 class="projectTitle" style="color: #5cefff">
+                    Fair / Share
+                </h1>
+                <p class="projectDesc">
+                    Website helping users share rent, share goods, and separate
+                    finances in a way that guarantees no person will feel envy
+                    towards someone else.
+                    <br />
+                    This is done by using rental harmony algorithms that try to
+                    solve sharing problem, i.e., split goods between people in a
+                    way that doesn’t cause resentment.
+                    <br />
+                    The algorithms take everyone’s monetary valuations and
+                    compute an allocation which result in no one feeling envy
+                    towards someone else. Additionally, these algorithms result
+                    in a pareto-efficient situation, where no one would be
+                    better of without making at least 1 other person worse of.
+                    <br />
+                    Multiple harmony algorithms are included for each sharing
+                    case.
+                    <br />
+                    Users can share their rent, indivisible goods, and their
+                    finances, which can include both indivisible goods and
+                    money.
+                </p>
+                <div class="imageContainer">
+                    <a class="" href="#fairshare-1">
+                        <img
+                            class="projectImg"
+                            src="ProjectImages/FairShare/home-page-fairshare.PNG"
+                        />
+                    </a>
+                    <div class="projectImg-target" id="fairshare-1">
+                        <img
+                            src="ProjectImages/FairShare/home-page-fairshare.PNG"
+                        />
+                        <a class="projectImg-close" href="#project1"></a>
+                    </div>
+                    <a class="" href="#fairshare-2">
+                        <img
+                            class="projectImg"
+                            src="ProjectImages/FairShare/valuations-page-fairshare.PNG"
+                        />
+                    </a>
+                    <div class="projectImg-target" id="fairshare-2">
+                        <img
+                            src="ProjectImages/FairShare/valuations-page-fairshare.PNG"
+                        />
+                        <a class="projectImg-close" href="#project1"></a>
+                    </div>
+                    <a class="" href="#fairshare-3">
+                        <img
+                            class="projectImg"
+                            src="ProjectImages/FairShare/account-board-fairshare.PNG"
+                        />
+                    </a>
+                    <div class="projectImg-target" id="fairshare-3">
+                        <img
+                            src="ProjectImages/FairShare/account-board-fairshare.PNG"
+                        />
+                        <a class="projectImg-close" href="#project1"></a>
+                    </div>
+                </div>
+                <div class="Tech">
+                    <div id="introText">Technologies Used</div>
+                    <div id="skillsList">
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #f06529;
+                                    color: #fff;
+                                    border: 5px solid #f06529;
+                                "
+                            >
+                                HTML5
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: dodgerblue;
+                                    color: #fff;
+                                    border: 5px solid dodgerblue;
+                                "
+                            >
+                                CSS3
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #efd63b;
+                                    color: #000;
+                                    border: 5px solid #efd63b;
+                                "
+                            >
+                                JavaScript
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #61dafb;
+                                    color: #000;
+                                    border: 5px solid #61dafb;
+                                "
+                            >
+                                React.js
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #764abc;
+                                    color: #fff;
+                                    border: 5px solid #764abc;
+                                "
+                            >
+                                React Redux
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #bf4080;
+                                    color: #fff;
+                                    border: 5px solid #bf4080;
+                                "
+                            >
+                                Sass
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #7952b3;
+                                    color: #fff;
+                                    border: 5px solid #7952b3;
+                                "
+                            >
+                                Bootstrap
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #8dd6f9;
+                                    color: #000;
+                                    border: 5px solid #8dd6f9;
+                                "
+                            >
+                                Webpack
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #fda535;
+                                    color: #000;
+                                    border: 5px solid #fda535;
+                                "
+                            >
+                                Firebase
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #512bd4;
+                                    color: #fff;
+                                    border: 5px solid #512bd4;
+                                "
+                            >
+                                ASP.NET Core
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #007bff;
+                                    color: #fff;
+                                    border: 5px solid #007bff;
+                                "
+                            >
+                                Docker
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #3b0e96;
+                                    color: #fff;
+                                    border: 5px solid #3b0e96;
+                                "
+                            >
+                                Heroku
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://fairshare-48f9f.web.app/" class="projectLink"
+                    >Live Website</a
+                >
+            </div>
+        </div>
+        <div class="project50" id="project2">
+            <div
+                class="projectLeft"
+                data-aos="fade"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                style="overflow: auto"
+            >
+                <h1 class="projectTitle" style="color: #5eff5e">
+                    TaskScape - Vue.js
+                </h1>
+                <p class="projectDesc">
+                    TaskScape is an attempt to build a more enticing task
+                    manager. <br />
+                    It contains aspects of video games to try to make completing
+                    tasks more rewarding and fun. Users can create tasks which,
+                    upon completion, grant different types of experience. For
+                    example, completing tasks quickly will give more
+                    'efficiency' experience.
+                </p>
+                <div class="imageContainer">
+                    <a class="" href="#taskscape-1">
+                        <img
+                            class="projectImg"
+                            src="ProjectImages/VueTaskScape/home-page-taskscape.PNG"
+                        />
+                    </a>
+                    <div class="projectImg-target" id="taskscape-1">
+                        <img
+                            src="ProjectImages/VueTaskScape/home-page-taskscape.PNG"
+                        />
+                        <a class="projectImg-close" href="#project2"></a>
+                    </div>
+                    <a class="" href="#taskscape-2">
+                        <img
+                            class="projectImg"
+                            src="ProjectImages/VueTaskScape/task-list-taskscape.PNG"
+                        />
+                    </a>
+                    <div class="projectImg-target" id="taskscape-2">
+                        <img
+                            src="ProjectImages/VueTaskScape/task-list-taskscape.PNG"
+                        />
+                        <a class="projectImg-close" href="#project2"></a>
+                    </div>
+                    <a class="" href="#taskscape-3">
+                        <img
+                            class="projectImg"
+                            src="ProjectImages/VueTaskScape/player-stats-taskscape.PNG"
+                        />
+                    </a>
+                    <div class="projectImg-target" id="taskscape-3">
+                        <img
+                            src="ProjectImages/VueTaskScape/player-stats-taskscape.PNG"
+                        />
+                        <a class="projectImg-close" href="#project2"></a>
+                    </div>
+                </div>
+                <div class="Tech">
+                    <div id="introText">Technologies Used</div>
+                    <div id="skillsList">
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #f06529;
+                                    color: #fff;
+                                    border: 5px solid #f06529;
+                                "
+                            >
+                                HTML5
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: dodgerblue;
+                                    color: #fff;
+                                    border: 5px solid dodgerblue;
+                                "
+                            >
+                                CSS3
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #3178c6;
+                                    color: #fff;
+                                    border: 5px solid #3178c6;
+                                "
+                            >
+                                TypeScript
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #4db886;
+                                    color: #fff;
+                                    border: 5px solid #4db886;
+                                "
+                            >
+                                Vue.js
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #bf4080;
+                                    color: #fff;
+                                    border: 5px solid #bf4080;
+                                "
+                            >
+                                Sass
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #7952b3;
+                                    color: #fff;
+                                    border: 5px solid #7952b3;
+                                "
+                            >
+                                Bootstrap
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #8dd6f9;
+                                    color: #000;
+                                    border: 5px solid #8dd6f9;
+                                "
+                            >
+                                Webpack
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #fda535;
+                                    color: #000;
+                                    border: 5px solid #fda535;
+                                "
+                            >
+                                Firebase
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <a
+                    href="https://github.com/EB1811/taskscape-vue.js"
+                    target="_blank"
+                    class="projectLink"
+                    >Github</a
+                >
+                <a href="https://taskscape-3cca5.web.app" class="projectLink"
+                    >Live Website</a
+                >
+            </div>
+        </div>
+        <div class="project50" id="project3">
+            <div
+                class="projectLeft"
+                data-aos="fade"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                style="overflow: auto"
+            >
+                <h1 class="projectTitle" style="color: #ffd557">
+                    Quiz Creator - React
+                </h1>
+                <p class="projectDesc">
+                    A website where users can create and complete quizzes.
+                    <br />
+                    New quizzes are shown in the dashboard where anyone can try
+                    them and see how well they do. <br />
+                    Built using React with Firebase used for cloud storage and
+                    authentication.
+                </p>
+                <div class="imageContainer">
+                    <a class="" href="#reactQuizMaker-1">
+                        <img
+                            class="projectImg"
+                            src="ProjectImages/ReactQuizMaker/home-page-quiz-app.PNG"
+                        />
+                    </a>
+                    <div class="projectImg-target" id="reactQuizMaker-1">
+                        <img
+                            src="ProjectImages/ReactQuizMaker/home-page-quiz-app.PNG"
+                        />
+                        <a class="projectImg-close" href="#project3"></a>
+                    </div>
+                    <a class="" href="#reactQuizMaker-2">
+                        <img
+                            class="projectImg"
+                            src="ProjectImages/ReactQuizMaker/dashboard-quiz-app.PNG"
+                        />
+                    </a>
+                    <div class="projectImg-target" id="reactQuizMaker-2">
+                        <img
+                            src="ProjectImages/ReactQuizMaker/dashboard-quiz-app.PNG"
+                        />
+                        <a class="projectImg-close" href="#project3"></a>
+                    </div>
+                    <a class="" href="#reactQuizMaker-3">
+                        <img
+                            class="projectImg"
+                            src="ProjectImages/ReactQuizMaker/create-quiz-quiz-app.PNG"
+                        />
+                    </a>
+                    <div class="projectImg-target" id="reactQuizMaker-3">
+                        <img
+                            src="ProjectImages/ReactQuizMaker/create-quiz-quiz-app.PNG"
+                        />
+                        <a class="projectImg-close" href="#project3"></a>
+                    </div>
+                </div>
+                <div class="Tech">
+                    <div id="introText">Technologies Used</div>
+                    <div id="skillsList">
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #f06529;
+                                    color: #fff;
+                                    border: 5px solid #f06529;
+                                "
+                            >
+                                HTML5
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: dodgerblue;
+                                    color: #fff;
+                                    border: 5px solid dodgerblue;
+                                "
+                            >
+                                CSS3
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #efd63b;
+                                    color: #000;
+                                    border: 5px solid #efd63b;
+                                "
+                            >
+                                JavaScript
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #61dafb;
+                                    color: #000;
+                                    border: 5px solid #61dafb;
+                                "
+                            >
+                                React.js
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #764abc;
+                                    color: #fff;
+                                    border: 5px solid #764abc;
+                                "
+                            >
+                                React Redux
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #ee6e73;
+                                    color: #fff;
+                                    border: 5px solid #ee6e73;
+                                "
+                            >
+                                Materialize CSS
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background: linear-gradient(
+                                        145deg,
+                                        rgba(119, 34, 255, 1) 0%,
+                                        rgba(204, 17, 187, 1) 100%
+                                    );
+                                    color: #fff;
+                                    padding: 10px;
+                                "
+                            >
+                                Framer Motion
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #fda535;
+                                    color: #000;
+                                    border: 5px solid #fda535;
+                                "
+                            >
+                                Firebase
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <a
+                    href="https://github.com/EB1811/SimpleQuizzes-React"
+                    target="_blank"
+                    class="projectLink"
+                    >Github</a
+                >
+                <a href="https://simplequiz-ae03b.web.app" class="projectLink"
+                    >Live Website</a
+                >
+            </div>
+        </div>
+
+        <div class="project50" id="project4">
+            <div
+                class="projectLeft"
+                data-aos="fade"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >
+                <h1 class="projectTitle" style="color: #ff5e56">
+                    Web Log File Analyser - Laravel
+                </h1>
+                <p class="projectDesc">
+                    Web application where users can upload a log file, and re
+                    cieve key statistics and information in that log file.
+                    <br />
+                    The app summarizes the contents of a given log file by
+                    finding patterns, keywords, and important technical
+                    information.
+                    <br />
+                    This was developed for ECS Ltd as part of my second year
+                    industrial group project.
+                </p>
+                <div class="imageContainer">
+                    <a class="" href="#laravel-1">
+                        <img
+                            class="projectImg"
+                            src="ProjectImages/LogAnalyser/log-analyser-file-viewer.PNG"
+                        />
+                    </a>
+                    <div class="projectImg-target" id="laravel-1">
+                        <img
+                            src="ProjectImages/LogAnalyser/log-analyser-file-viewer.PNG"
+                        />
+                        <a class="projectImg-close" href="#project4"></a>
+                    </div>
+                    <a class="" href="#laravel-2">
+                        <img
+                            class="projectImg"
+                            src="ProjectImages/LogAnalyser/upload-log-file-viewer.PNG"
+                        />
+                    </a>
+                    <div class="projectImg-target" id="laravel-2">
+                        <img
+                            src="ProjectImages/LogAnalyser/upload-log-file-viewer.PNG"
+                        />
+                        <a class="projectImg-close" href="#project4"></a>
+                    </div>
+                    <a class="" href="#laravel-3">
+                        <img
+                            class="projectImg"
+                            src="ProjectImages/LogAnalyser/log-in-file-viewer.PNG"
+                        />
+                    </a>
+                    <div class="projectImg-target" id="laravel-3">
+                        <img
+                            src="ProjectImages/LogAnalyser/log-in-file-viewer.PNG"
+                        />
+                        <a class="projectImg-close" href="#project4"></a>
+                    </div>
+                </div>
+                <div class="Tech">
+                    <div id="introText">Technologies Used</div>
+
+                    <div id="skillsList">
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #f06529;
+                                    color: #fff;
+                                    border: 5px solid #f06529;
+                                "
+                            >
+                                HTML5
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: dodgerblue;
+                                    color: #fff;
+                                    border: 5px solid dodgerblue;
+                                "
+                            >
+                                CSS3
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #efd63b;
+                                    color: #000;
+                                    border: 5px solid #efd63b;
+                                "
+                            >
+                                JavaScript
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #8892bf;
+                                    color: #000;
+                                    border: 5px solid #8892bf;
+                                "
+                            >
+                                PHP
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #ff2d20;
+                                    color: #fff;
+                                    border: 5px solid #ff2d20;
+                                "
+                            >
+                                Laravel
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #bf4080;
+                                    color: #fff;
+                                    border: 5px solid #bf4080;
+                                "
+                            >
+                                Sass
+                            </h2>
+                        </div>
+                        <div id="skillsPill">
+                            <h2
+                                id="skillText"
+                                style="
+                                    background-color: #7952b3;
+                                    color: #fff;
+                                    border: 5px solid #7952b3;
+                                "
+                            >
+                                Bootstrap
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contactPage">
+            <div id="contactPageTitle">Contact Me</div>
+            <div id="contactPageDesc">
+                <span class="contactPageDescText"
+                    >emmanuilsborovikovs@outlook.com</span
+                ><br />
+                <a
+                    href="https://github.com/EB1811"
+                    style="text-decoration: none"
+                    class="projectLink"
+                    >github.com/EB1811</a
+                >
+            </div>
+        </div>
+
+        <!-- SCRIPTS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+
+            // When the user scrolls the page, execute fillBar
+            window.onscroll = function () {
+                fillBar();
+            };
+
+            function fillBar() {
+                var winScroll =
+                    document.body.scrollTop ||
+                    document.documentElement.scrollTop;
+                var height =
+                    document.documentElement.scrollHeight -
+                    document.documentElement.clientHeight;
+                var scrolled = (winScroll / height) * 100;
+                document.getElementById("bar").style.width = scrolled + "%";
+            }
+        </script>
+    </body>
+</html>
